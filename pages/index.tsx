@@ -75,6 +75,14 @@ const Home: NextPage = () => {
 
   return (
     <div className={styles.container}>
+      {/* Powered by thirdweb */}{" "}
+      <img
+        src={`/logo.png`}
+        alt="Thirdweb Logo"
+        width={300}
+        className={styles.thirdwebLogo}
+      />
+      
       <div className={styles.mintInfoContainer}>
         <div className={styles.infoSide}>
           {/* Title of your NFT Collection */}
@@ -165,13 +173,7 @@ const Home: NextPage = () => {
           )}
         </div>
       </div>
-      {/* Powered by thirdweb */}{" "}
-      <img
-        src={`/logo.png`}
-        alt="Thirdweb Logo"
-        width={135}
-        className={styles.buttonGapTop}
-      />
+      
     </div>
   );
 };
