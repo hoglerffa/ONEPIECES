@@ -2,7 +2,8 @@ import styles from "../../styles/Thirdweb.module.css";
 import React from "react";
 
 export default function ThirdwebGuideFooter() {
-  const url = "https://github.com/thirdweb-example/custom-minting-page";
+  const url = "https://opensea.io/collection/onepieces-official";
+  const url0 = "https://www.element.market/collections/ONEPIECES";
   return (
     <>
       <div
@@ -29,7 +30,7 @@ export default function ThirdwebGuideFooter() {
         }}
       >
         <img
-          src={"/github.png"}
+          src={"/opensea.png"}
           width={40}
           height={40}
           role="button"
@@ -51,7 +52,7 @@ export default function ThirdwebGuideFooter() {
           cursor: "pointer",
         }}
         role="button"
-        onClick={() => window.open(url, "_blank")}
+        onClick={() => window.open(url0, "_blank")}
       />
 
       <div
@@ -62,12 +63,12 @@ export default function ThirdwebGuideFooter() {
         }}
       >
         <img
-          src={"/github.png"}
+          src={"/element.png"}
           width={40}
           height={40}
           role="button"
           style={{ cursor: "pointer" }}
-          onClick={() => window.open(url, "_blank")}
+          onClick={() => window.open(url0, "_blank")}
         />
       </div>
 
