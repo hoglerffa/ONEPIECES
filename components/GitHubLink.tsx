@@ -37,6 +37,40 @@ export default function ThirdwebGuideFooter() {
           onClick={() => window.open(url, "_blank")}
         />
       </div>
+
+      <div
+        style={{
+          position: "fixed",
+          bottom: -120,
+          left: -80,
+          height: 300,
+          width: 150,
+          border: "1px solid #eaeaea",
+          transform: "rotate(135deg)",
+          backgroundColor: " #262935",
+          cursor: "pointer",
+        }}
+        role="button"
+        onClick={() => window.open(url, "_blank")}
+      />
+
+      <div
+        style={{
+          position: "fixed",
+          bottom: 14,
+          left: 18,
+        }}
+      >
+        <img
+          src={"/github.png"}
+          width={40}
+          height={40}
+          role="button"
+          style={{ cursor: "pointer" }}
+          onClick={() => window.open(url, "_blank")}
+        />
+      </div>
+
     </>
   );
 }
