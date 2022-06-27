@@ -152,6 +152,11 @@
   opacity: 0.25;
 }
 
+.thirdwebLogo {
+  cursor: pointer;
+  margin-top: -50px;
+}
+
 /* On mobile, make the .mintInfoContainer stack vertically */
 @media screen and (max-width: 850px) {
   .mintInfoContainer {
