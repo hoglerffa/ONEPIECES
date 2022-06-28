@@ -1,5 +1,5 @@
 .container {
-  margin-top: 96px;
+  margin-top: 76px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,13 +20,17 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 80%;
+  height: 100%;
   padding: 0 24px;
-  min-height: 720px;
+  min-height: 620px;
   max-width: 95vw;
   gap: 2%;
-  border: 1px solid var(--border-color);
+  border: 2px solid var(--border-color);
   border-radius: 16px;
+  border-Color:white;
+  background:white; 
+  opacity: 0.8; 
 }
 
 .infoSide {
@@ -38,7 +42,7 @@
 }
 
 .description {
-  opacity: 0.7;
+  opacity: 0.9;
   font-size: 1rem;
 }
 
@@ -48,7 +52,7 @@
 }
 
 .image {
-  width: 85%;
+  width: 65%;
   border-radius: 16px;
 }
 
@@ -144,14 +148,13 @@
   border-radius: 50%;
   font-size: 2rem;
   background-color: transparent;
-  border: 1px solid grey;
-  color: #fff;
+  border: 1px solid rgb(1, 1, 1);
+  color: rgb(0, 0, 0);
 }
 
 .quantityControlButton:disabled {
   opacity: 0.25;
 }
-
 .thirdwebLogo {
   cursor: pointer;
   margin-top: -50px;
@@ -169,6 +172,6 @@
   }
 
   .imageSide {
-    width: 100%;
+    width: 120%;
   }
 }
