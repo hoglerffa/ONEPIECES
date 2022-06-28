@@ -3,10 +3,9 @@
 /* Change the values in here to match your branding */
 :root {
   /* Background color of the page */
-  --background-color: #1c1e21;
-
+  --background-image:url(/bg.png);
   /* Color of the text/words */
-  --text-color: #fff;
+  --text-color: rgb(12, 12, 12);
 
   /* Main color of your brand */
   --color-primary: #f213a4;
@@ -26,7 +25,10 @@
 /* Default design values of the entire document */
 
 body {
-  background: var(--background-color);
+  background: var(--background-image);
+  background-repeat:no-repeat;
+  background-size:100%100%;
+  background-attachment:fixed;
   font-family: var(--font);
   color: var(--text-color);
 
