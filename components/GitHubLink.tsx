@@ -16,6 +16,7 @@ export default function ThirdwebGuideFooter() {
           border: "1px solid #eaeaea",
           transform: "rotate(45deg)",
           backgroundColor: " #262935",
+          opacity: 0.2,
           cursor: "pointer",
         }}
         role="button"
@@ -38,7 +39,7 @@ export default function ThirdwebGuideFooter() {
           onClick={() => window.open(url, "_blank")}
         />
       </div>
-
+      
       <div
         style={{
           position: "fixed",
@@ -49,6 +50,7 @@ export default function ThirdwebGuideFooter() {
           border: "1px solid #eaeaea",
           transform: "rotate(135deg)",
           backgroundColor: " #262935",
+          opacity: 0.2,
           cursor: "pointer",
         }}
         role="button"
