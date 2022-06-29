@@ -3,7 +3,7 @@ import React from "react";
 
 export default function ThirdwebGuideFooter() {
   const url = "https://opensea.io/collection/onepieces-official";
-  const url0 = "https://www.element.market/collections/ONEPIECES";
+  const url0 = "https://element.market/collections/ONEPIECES";
   return (
     <>
       <div
