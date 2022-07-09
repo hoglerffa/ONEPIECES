@@ -2,8 +2,10 @@ import styles from "../../styles/Thirdweb.module.css";
 import React from "react";
 
 export default function ThirdwebGuideFooter() {
-  const url = "https://bitkeep.com";
-  const url0 = "https://element.market/collections/ONEPIECES";
+  const url1 = "https://bitkeep.com/";
+  const url2 = "https://element.market/collections/ONEPIECES";
+  const url3 = "https://twitter.com/ONEPIECES6400";
+  const url4 = "https://discord.com/invite/k6tBaFaVmm";
   return (
     <>
       <div
@@ -20,7 +22,7 @@ export default function ThirdwebGuideFooter() {
           cursor: "pointer",
         }}
         role="button"
-        onClick={() => window.open(url, "_blank")}
+        onClick={() => window.open(url1, "_blank")}
       />
 
       <div
@@ -28,6 +30,7 @@ export default function ThirdwebGuideFooter() {
           position: "fixed",
           bottom: 14,
           right: 18,
+          opacity: 0.7,
         }}
       >
         <img
@@ -36,7 +39,7 @@ export default function ThirdwebGuideFooter() {
           height={40}
           role="button"
           style={{ cursor: "pointer" }}
-          onClick={() => window.open(url, "_blank")}
+          onClick={() => window.open(url1, "_blank")}
         />
       </div>
       
@@ -54,7 +57,7 @@ export default function ThirdwebGuideFooter() {
           cursor: "pointer",
         }}
         role="button"
-        onClick={() => window.open(url0, "_blank")}
+        onClick={() => window.open(url2, "_blank")}
       />
 
       <div
@@ -62,6 +65,7 @@ export default function ThirdwebGuideFooter() {
           position: "fixed",
           bottom: 14,
           left: 18,
+          opacity: 0.7,
         }}
       >
         <img
@@ -70,7 +74,43 @@ export default function ThirdwebGuideFooter() {
           height={40}
           role="button"
           style={{ cursor: "pointer" }}
-          onClick={() => window.open(url0, "_blank")}
+          onClick={() => window.open(url2, "_blank")}
+        />
+      </div>     
+      
+      <div
+        style={{
+          position: "fixed",
+          bottom: 500,
+          right: 8,
+          opacity: 0.7,
+        }}
+      >
+        <img
+          src={"/Twitter.png"}
+          width={30}
+          height={30}
+          role="button"
+          style={{ cursor: "pointer" }}
+          onClick={() => window.open(url3, "_blank")}
+        />
+      </div>
+
+      <div
+        style={{
+          position: "fixed",
+          bottom: 450,
+          right: 8,
+          opacity: 0.7,
+        }}
+      >
+        <img
+          src={"/Discord.png"}
+          width={30}
+          height={30}
+          role="button"
+          style={{ cursor: "pointer" }}
+          onClick={() => window.open(url4, "_blank")}
         />
       </div>
 
