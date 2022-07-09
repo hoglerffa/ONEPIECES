@@ -83,7 +83,7 @@ export default function ThirdwebGuideFooter() {
           position: "fixed",
           bottom: 500,
           right: 8,
-          opacity: 0.7,
+          
         }}
       >
         <img
@@ -101,7 +101,7 @@ export default function ThirdwebGuideFooter() {
           position: "fixed",
           bottom: 450,
           right: 8,
-          opacity: 0.7,
+          
         }}
       >
         <img
